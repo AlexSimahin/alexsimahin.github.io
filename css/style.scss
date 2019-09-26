@@ -1,0 +1,28 @@
+@import 'scss/reset';
+
+body,
+html {
+  /*overflow-x: hidden;*/
+}
+
+
+
+.fade-page{
+  /*max-width: 991px;*/
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: block;
+  /*background-color: #000;*/
+  opacity: 1;
+  margin: 0 auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+@import 'scss/navigation';
+
+@import 'scss/content-page';

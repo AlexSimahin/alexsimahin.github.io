@@ -1,0 +1,279 @@
+.JustifyContent-center {
+  display: flex;
+  justify-content: center;
+}
+
+.JustifyContent-AlignItems-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-page {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.imager {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.imager img {
+  /* width: 100%; */
+  height: 1000px;
+}
+
+.gradient-block1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 30%;
+  background-image: linear-gradient(180deg, transparent, #0a0f39);
+}
+
+.content-imgText {
+  position: relative;
+  padding-top: 60px;
+  margin-bottom: 120px;
+}
+
+.gradient-new-paragraph {
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(180deg, #0a0f39, rgba(19, 21, 29, 0) 36%);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.paragraph {
+  display: block;
+  width: 80%;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 0 auto 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.rule-block {
+  height: 80px;
+  width: 1px;
+  margin: 0 auto 30px;
+  background-color: #bfc2e8;
+}
+
+.future-project {
+  flex-direction: column;
+  margin: 0 5%;
+}
+
+.future-project h4 {
+  margin-bottom: 60px;
+  font-family: 'Gt america compressed', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.prj-block {
+  width: 85%;
+  margin-bottom: 65px;
+}
+
+.ph {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.project img {
+  transition: transform 3s;
+}
+
+.project .first img {
+  transform: scale(3,3);
+}
+
+.project .second img {
+  transform: scale(5,5);
+}
+
+.project .third img {
+  transform: scale(7,7);
+}
+
+.project .ph:hover img {
+  transform: scale(4,4);
+}
+
+.about-ph {
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.about-ph h3 {
+  font-size: 1.3em;
+  font-family: 'Gt america extended', sans-serif;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.content-stats {
+  position: relative;
+  width: 100%;
+  min-height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+}
+
+.bg-stats {
+  position: absolute;
+  z-index: 12;
+  background: url("../img/testsvg.svg") no-repeat;
+  background-position: 50% 43%;
+  background-size: auto 170%;
+  width: 100%;
+  min-height: 1400px;
+}
+
+.eyebrow-rule {
+  width: 15px;
+  height: 2px;
+  margin-bottom: 80px;
+  background-color: #f1efe0;
+}
+
+.stats {
+  position: absolute;
+  top: 5%;
+  z-index: 14;
+  width: 85%;
+  margin-top: 200px;
+}
+
+section {
+  margin-bottom: 100px;
+  font-family: 'Gt america extended', sans-serif;
+  color: white;
+}
+
+.stats h1 {
+  margin-bottom: 60px;
+  font-size: 9em;
+  font-weight: 700;
+}
+
+.stats h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.parallax-window {
+  position: absolute;
+  z-index: 13;
+  right: 0;
+  top: 68%;
+  background: url("../img/dragon.png") no-repeat;
+  width: 100%;
+  min-height: 700px;
+  animation: dragon 20s infinite ease-in-out;
+  transform: translateY(0);
+}
+@keyframes dragon {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.content-motivation {
+  position: relative;
+  z-index: 14;
+  margin-top: 70px;
+  width: 100%;
+  min-height: 500px;
+}
+
+.content-motivation section {
+  width: 85%;
+}
+
+.content-motivation h2 {
+  margin-bottom: 20px;
+  font-family: 'Gt america compressed', sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content-motivation p {
+  margin-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.gradient-block2 {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: -250px;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, #03081f, transparent);
+}
+.content-capture{
+  position: relative;
+}
+.capture-block{
+  position: absolute;
+  width: 85%;
+  flex-direction: column;
+  color: white;
+  top: 50%;
+}
+
+footer{
+  min-height: 400px;
+  background-color: rgb(178, 184, 203);
+
+}
+.info{
+  flex-direction: column;
+}
+
+.info h5{}
