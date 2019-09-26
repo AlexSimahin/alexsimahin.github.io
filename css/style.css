@@ -475,9 +475,55 @@ section {
 
 footer {
   min-height: 400px;
-  background-color: #b2b8cb; }
+  background-color: #dadde6;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center; }
+
+.wrap {
+  width: 85%; }
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #7190b9;
+  margin-bottom: 60px; }
 
 .info {
   flex-direction: column; }
+
+.border-l {
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-bottom: 30px; }
+
+.info h5 {
+  margin-bottom: 10px; }
+
+.social {
+  display: grid;
+  grid-template: 65px / 65px 65px; }
+
+.social .fab {
+  color: white;
+  font-size: 1.3em; }
+
+.sc {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.copyright {
+  color: #6f6f6f;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Work Sans', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
