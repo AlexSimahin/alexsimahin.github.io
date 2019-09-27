@@ -197,7 +197,7 @@ section {
 .parallax-window {
   position: absolute;
   z-index: 13;
-  right: 0;
+  right: -210px;
   top: 68%;
   background: url("../img/dragon.png") no-repeat;
   width: 100%;
@@ -267,6 +267,8 @@ section {
   top: 50%;
 }
 
+/*Footer*/
+
 footer{
   min-height: 400px;
   background-color: rgb(218, 221, 230);
@@ -283,8 +285,11 @@ footer{
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgb(113, 144, 185);
   margin-bottom: 60px;
+}
+
+.logo .st0{
+  fill: rgb(113, 144, 185);
 }
 
 .info{
