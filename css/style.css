@@ -399,7 +399,7 @@ section {
 
 .stats h1 {
   margin-bottom: 60px;
-  font-size: 9em;
+  font-size: 7em;
   font-weight: 700; }
 
 .stats h5 {
@@ -414,7 +414,7 @@ section {
 .parallax-window {
   position: absolute;
   z-index: 13;
-  right: -210px;
+  right: 0;
   top: 68%;
   background: url("../img/dragon.png") no-repeat;
   width: 100%;
