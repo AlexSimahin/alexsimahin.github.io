@@ -2,7 +2,8 @@
 
 body,
 html {
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
+  min-width: 370px;
 }
 
 
@@ -22,6 +23,8 @@ main{
   display: flex;
   flex-direction: column;
 }
+
+@import 'scss/text-style';
 
 @import 'scss/navigation';
 

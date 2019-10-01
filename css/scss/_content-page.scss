@@ -58,8 +58,6 @@
 .paragraph {
   display: block;
   width: 80%;
-  font-size: 1.5em;
-  font-weight: 200;
   margin: 0 auto 50px;
   padding-bottom: 50px;
   position: relative;
@@ -80,11 +78,6 @@
 
 .future-project h4 {
   margin-bottom: 60px;
-  font-family: 'Gt america compressed', sans-serif;
-  font-size: 1.2em;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 .project {
@@ -129,14 +122,6 @@
   margin-top: 5px;
 }
 
-.about-ph h3 {
-  font-size: 1.3em;
-  font-family: 'Gt america extended', sans-serif;
-  line-height: 1.2em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
 .content-stats {
   position: relative;
   width: 100%;
@@ -174,24 +159,14 @@
 
 section {
   margin-bottom: 100px;
-  font-family: 'Gt america extended', sans-serif;
-  color: white;
 }
 
 .stats h1 {
   margin-bottom: 60px;
-  font-size: 7em;
-  font-weight: 700;
 }
 
 .stats h5 {
-  margin-top: 0;
   margin-bottom: 20px;
-  font-size: 1em;
-  line-height: 1.2em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .parallax-window {
@@ -234,18 +209,10 @@ section {
 
 .content-motivation h2 {
   margin-bottom: 20px;
-  font-family: 'Gt america compressed', sans-serif;
-  font-size: 3em;
-  line-height: 1em;
-  font-weight: 900;
-  text-transform: uppercase;
 }
 
 .content-motivation p {
   margin-bottom: 20px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1em;
-  line-height: 2em;
 }
 
 .gradient-block2 {
@@ -325,13 +292,4 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.copyright{
-  color: #6f6f6f;
-    font-size: 0.7em;
-    line-height: 1.6em;
-    font-style: normal;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
 }

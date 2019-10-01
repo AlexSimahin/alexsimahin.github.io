@@ -32,7 +32,8 @@ img {
 
 body,
 html {
-  /*overflow-x: hidden;*/ }
+  overflow-x: hidden;
+  min-width: 370px; }
 
 .fade-page {
   /*max-width: 991px;*/
@@ -47,6 +48,61 @@ html {
 main {
   display: flex;
   flex-direction: column; }
+
+.paragraph {
+  /*font-size: 1.5em;*/
+  font-size: 4vw;
+  line-height: 4vw;
+  font-weight: 200; }
+
+.future-project h4 {
+  font-family: 'Gt america compressed', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.about-ph h3 {
+  font-size: 1.3em;
+  font-family: 'Gt america extended', sans-serif;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+section {
+  font-family: 'Gt america extended', sans-serif;
+  color: white; }
+
+.stats h1 {
+  font-size: 7em;
+  font-weight: 700; }
+
+.stats h5 {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.content-motivation h2 {
+  font-family: 'Gt america compressed', sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.content-motivation p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+  line-height: 2em; }
+
+.copyright {
+  color: #6f6f6f;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Work Sans', sans-serif; }
 
 /*Menu*/
 nav {
@@ -93,7 +149,7 @@ nav {
 
 .nav-title {
   margin-bottom: 2px;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1.3em;
   font-weight: 500;
   letter-spacing: 7px;
@@ -101,10 +157,10 @@ nav {
 
 .nav-subtitle {
   color: rgba(119, 129, 214, 0.66);
-  font-size: 0.6em;
+  font-size: 0.8em;
   line-height: 1.4em;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase; }
 
 .Logotip img {
@@ -296,8 +352,6 @@ Overlay Menu*/
 .paragraph {
   display: block;
   width: 80%;
-  font-size: 1.5em;
-  font-weight: 200;
   margin: 0 auto 50px;
   padding-bottom: 50px;
   position: relative;
@@ -314,12 +368,7 @@ Overlay Menu*/
   margin: 0 5%; }
 
 .future-project h4 {
-  margin-bottom: 60px;
-  font-family: 'Gt america compressed', sans-serif;
-  font-size: 1.2em;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  margin-bottom: 60px; }
 
 .project {
   width: 100%;
@@ -354,13 +403,6 @@ Overlay Menu*/
   align-self: flex-start;
   margin-top: 5px; }
 
-.about-ph h3 {
-  font-size: 1.3em;
-  font-family: 'Gt america extended', sans-serif;
-  line-height: 1.2em;
-  font-weight: 400;
-  text-transform: uppercase; }
-
 .content-stats {
   position: relative;
   width: 100%;
@@ -393,23 +435,13 @@ Overlay Menu*/
   margin-top: 200px; }
 
 section {
-  margin-bottom: 100px;
-  font-family: 'Gt america extended', sans-serif;
-  color: white; }
+  margin-bottom: 100px; }
 
 .stats h1 {
-  margin-bottom: 60px;
-  font-size: 7em;
-  font-weight: 700; }
+  margin-bottom: 60px; }
 
 .stats h5 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 1em;
-  line-height: 1.2em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase; }
+  margin-bottom: 20px; }
 
 .parallax-window {
   position: absolute;
@@ -440,18 +472,10 @@ section {
   width: 85%; }
 
 .content-motivation h2 {
-  margin-bottom: 20px;
-  font-family: 'Gt america compressed', sans-serif;
-  font-size: 3em;
-  line-height: 1em;
-  font-weight: 900;
-  text-transform: uppercase; }
+  margin-bottom: 20px; }
 
 .content-motivation p {
-  margin-bottom: 20px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1em;
-  line-height: 2em; }
+  margin-bottom: 20px; }
 
 .gradient-block2 {
   position: absolute;
@@ -519,13 +543,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.copyright {
-  color: #6f6f6f;
-  font-size: 0.7em;
-  line-height: 1.6em;
-  font-style: normal;
-  font-weight: 500;
-  font-family: 'Work Sans', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
