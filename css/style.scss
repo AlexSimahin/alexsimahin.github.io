@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lato:400,700|Work+Sans:200,400,700,900&display=swap');
+
 @import 'scss/reset';
 
 body,
@@ -29,3 +31,7 @@ main{
 @import 'scss/navigation';
 
 @import 'scss/content-page';
+
+@import 'scss/media-w900';
+
+@import 'scss/media-desktop';
