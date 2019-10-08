@@ -8,8 +8,9 @@
   <title>My Studio</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
   <script src="https://kit.fontawesome.com/bad6dcbb61.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -82,7 +83,33 @@
 
       <div class="content-page JustifyContent-AlignItems-center">
         <div class="imager JustifyContent-AlignItems-center">
-          <img src="img/testimg.jpg" alt="">
+
+          <div class="carousel-wrapper">
+            <span id="target-item-1"></span>
+            <span id="target-item-2"></span>
+            <span id="target-item-3"></span>
+            <div class="carousel-item item-1">
+
+              <a class="arrow arrow-prev" href="#target-item-3"></a>
+              <a class="arrow arrow-next" href="#target-item-2"></a>
+            </div>
+            <div class="carousel-item item-2">
+
+              <a class="arrow arrow-prev" href="#target-item-1"></a>
+              <a class="arrow arrow-next" href="#target-item-3"></a>
+            </div>
+            <div class="carousel-item item-3">
+
+              <a class="arrow arrow-prev" href="#target-item-2"></a>
+              <a class="arrow arrow-next" href="#target-item-1"></a>
+            </div>
+          </div>
+
+
+
+          <!--<img src="img/testimg.jpg" alt="">-->
+
+
         </div>
         <div class="gradient-block1"></div>
       </div>
