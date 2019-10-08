@@ -1,4 +1,5 @@
 /*Menu*/
+
 nav {
   height: 10%;
   width: 100%;
@@ -28,9 +29,9 @@ nav {
   outline: none;
 }
 
-.nav-bar-controls i {
-  font-size: 2em;
-  color: white;
+.nav-bar-controls svg{
+  width: 35px;
+  height: 35px;
 }
 
 .nav-bar-controls i:focus {
@@ -71,14 +72,13 @@ nav {
   height: 35px;
 }
 
-.st{
+.st {
   fill: red;
 }
 /*/
 Menu*//*Overlay Menu*/
 
 .menu-overlay {
-
   transition: color 2s;
   position: fixed;
   left: 0;
@@ -91,8 +91,6 @@ Menu*//*Overlay Menu*/
   background: #ddd;
   border: 1px solid red;
 }
-
-
 
 .menu-overlay-container {
   position: relative;
@@ -142,7 +140,6 @@ Menu*//*Overlay Menu*/
   transition: color 1s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 /*HOVER*/
-
 .menu-overlay-block ul a:hover {
   color: rgb(65, 86, 173);
 }
@@ -151,7 +148,6 @@ Menu*//*Overlay Menu*/
   transform: translateX(30px);
 }
 /* /HOVER*/
-
 .menu-overlay-block li {
   padding-bottom: 10px;
 }
@@ -178,17 +174,16 @@ Menu*//*Overlay Menu*/
   align-items: center;
 }
 
-.search-nav i {
-  position: relative;
-  font-size: 4vw;
+.search-nav svg{
+  width: 35px;
+  height: 35px;
 }
 
-.search-button {
-  width: 4vw;
-  height: 4vh;
-  position: absolute;
-  top: 0;
-  right: 0;
+.search-button{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: 35px;
   background: none;
   border: none;
 }
@@ -216,7 +211,8 @@ Menu*//*Overlay Menu*/
 .search-input::placeholder {
   color: white;
 }
-.search-input:focus::placeholder{
+
+.search-input:focus::placeholder {
   opacity: 0;
 }
 

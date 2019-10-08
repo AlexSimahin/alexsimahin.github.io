@@ -131,9 +131,9 @@ nav {
   border: none;
   outline: none; }
 
-.nav-bar-controls i {
-  font-size: 2em;
-  color: white; }
+.nav-bar-controls svg {
+  width: 35px;
+  height: 35px; }
 
 .nav-bar-controls i:focus {
   border: none; }
@@ -260,16 +260,15 @@ Menu*/
   display: flex;
   align-items: center; }
 
-.search-nav i {
-  position: relative;
-  font-size: 4vw; }
+.search-nav svg {
+  width: 35px;
+  height: 35px; }
 
 .search-button {
-  width: 4vw;
-  height: 4vh;
-  position: absolute;
-  top: 0;
-  right: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: 35px;
   background: none;
   border: none; }
 
