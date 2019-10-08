@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Lato:400,700|Work+Sans:200,400,700,900&display=swap');
-
 @import 'scss/reset';
 
 body,
@@ -8,9 +7,17 @@ html {
   min-width: 370px;
 }
 
+::-webkit-scrollbar {
+  width: 7px !important;
+  height: 5px !important;
+  background-color: #2a2633 !important;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: #3e3481 !important;
+}
 
-.fade-page{
+.fade-page {
   /*max-width: 991px;*/
   width: 100%;
   position: relative;
@@ -21,19 +28,13 @@ html {
   margin: 0 auto;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
 }
-
 @import 'scss/text-style';
-
 @import 'scss/navigation';
-
 @import 'scss/content-page';
-
 @import 'scss/media-w900';
-
 @import 'scss/media-desktop';
-
 @import 'scss/slider';

@@ -36,6 +36,14 @@ html {
   overflow-x: hidden;
   min-width: 370px; }
 
+::-webkit-scrollbar {
+  width: 7px !important;
+  height: 5px !important;
+  background-color: #2a2633 !important; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #3e3481 !important; }
+
 .fade-page {
   /*max-width: 991px;*/
   width: 100%;
