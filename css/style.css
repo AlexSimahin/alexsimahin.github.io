@@ -344,7 +344,7 @@ Overlay Menu*/
   background-image: linear-gradient(180deg, #0a0f39, rgba(19, 21, 29, 0) 36%);
   position: absolute;
   top: 0;
-  z-index: 0; }
+  z-index: -1; }
 
 .text-center {
   text-align: center; }
@@ -382,26 +382,34 @@ Overlay Menu*/
 .ph {
   width: 100%;
   height: 300px;
-  overflow: hidden; }
+  overflow: hidden;
+  outline: 0px solid rgba(255, 255, 255, 0);
+  transition: outline 2.5s; }
 
 .project img {
-  transition: transform 3s; }
+  transition: transform 2.5s;
+  width: 100%;
+  height: auto;
+  background-size: cover; }
 
 .project .first img {
-  transform: scale(3, 3); }
+  /*transform: scale(3,3);*/ }
 
 .project .second img {
-  transform: scale(5, 5); }
+  /*transform: scale(5,5);*/ }
 
 .project .third img {
-  transform: scale(7, 7); }
+  /*transform: scale(7,7);*/ }
 
 .project .ph:hover img {
-  transform: scale(4, 4); }
+  transform: scale(1.5, 1.5); }
+
+.ph:hover {
+  outline: 1px solid rgba(255, 255, 255, 0.58); }
 
 .about-ph {
   align-self: flex-start;
-  margin-top: 5px; }
+  margin-top: 10px; }
 
 .content-stats {
   position: relative;
@@ -449,7 +457,7 @@ section {
   right: 0;
   top: 68%;
   background: url("../img/dragon.png") no-repeat;
-  width: 100%;
+  width: 135%;
   min-height: 700px;
   animation: dragon 20s infinite ease-in-out;
   transform: translateY(0); }
@@ -499,7 +507,7 @@ section {
 /*Footer*/
 footer {
   min-height: 400px;
-  background-color: #dadde6;
+  background-color: white;
   padding-top: 35px;
   display: flex;
   justify-content: center; }
@@ -514,7 +522,7 @@ footer {
   margin-bottom: 60px; }
 
 .logo .st0 {
-  fill: #7190b9; }
+  fill: black; }
 
 .info {
   flex-direction: column; }
@@ -544,19 +552,24 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.red-href {
+  color: #8a1c1c; }
+
 @media (min-width: 450px) and (max-width: 900px) {
   /*Fonts*/
   .paragraph {
     font: 200 1.25em "Work Sans", sans-serif; }
 
   .future-project h4 {
-    font: 500 1.5em "Lato", sans-serif;
+    font: 700 1.32em "Lato", sans-serif;
     letter-spacing: 2px; }
 
   /*/Fonts*/
   /*Nav*/
   /*/Nav*/
-  /*Content*/ }
+  /*Content*/
+  .parallax-window {
+    width: 90%; } }
 .carousel-wrapper {
   position: relative;
   height: 100vh;
