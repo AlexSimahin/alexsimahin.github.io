@@ -169,6 +169,8 @@
 
 section {
   margin-bottom: 100px;
+  position: relative;
+  z-index: 4;
 }
 
 .stats h1 {
@@ -304,6 +306,22 @@ footer{
   align-items: center;
 }
 
+.href-but{
+  width: 85%;
+}
+
 .red-href{
+  width: 150px;
+  height: 30px;
   color: rgb(138, 28, 28);
+}
+.red-href .fas{
+  margin-left: 5px;
+  transition:  transform 1s ease-in;
+  transform: translateX(0);
+}
+
+.red-href:hover .fas{
+  transform: scale(2,1) translateX(5px);
+
 }

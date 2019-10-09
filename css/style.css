@@ -443,7 +443,9 @@ Overlay Menu*/
   margin-top: 200px; }
 
 section {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 4; }
 
 .stats h1 {
   margin-bottom: 60px; }
@@ -552,8 +554,21 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.href-but {
+  width: 85%; }
+
 .red-href {
+  width: 150px;
+  height: 30px;
   color: #8a1c1c; }
+
+.red-href .fas {
+  margin-left: 5px;
+  transition: transform 1s ease-in;
+  transform: translateX(0); }
+
+.red-href:hover .fas {
+  transform: scale(2, 1) translateX(5px); }
 
 @media (min-width: 450px) and (max-width: 900px) {
   /*Fonts*/
@@ -622,7 +637,7 @@ footer {
   background-size: cover; }
 
 .carousel-wrapper .item-3 {
-  background: url("../img/menuov.jpg") 50% 50%/20px no-repeat;
+  background: url("../img/img3.jpg") 50% 50%/20px no-repeat;
   background-size: cover; }
 
 .carousel-wrapper *:target ~ .item-1 {
