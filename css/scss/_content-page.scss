@@ -95,7 +95,7 @@
   width: 100%;
   height: 300px;
   overflow: hidden;
-  outline: 0px solid rgba(255, 255, 255, 0);
+  outline: 0 solid rgba(255, 255, 255, 0);
   transition: outline 2.5s;
 }
 
@@ -122,10 +122,9 @@
   transform: scale(1.5,1.5);
 }
 
-.ph:hover{
+.ph:hover {
   outline: 1px solid rgba(255, 255, 255, 0.58);
 }
-
 
 .about-ph {
   align-self: flex-start;
@@ -206,7 +205,6 @@ section {
   }
 }
 
-
 .content-motivation {
   position: relative;
   z-index: 14;
@@ -236,67 +234,67 @@ section {
   height: 100%;
   background-image: linear-gradient(180deg, transparent, #03081f, transparent);
 }
-.content-capture{
+
+.content-capture {
   position: relative;
 }
-.capture-block{
+
+.capture-block {
   position: absolute;
   width: 85%;
   flex-direction: column;
   color: white;
   top: 50%;
 }
-
 /*Footer*/
-
-footer{
+footer {
   min-height: 400px;
   background-color: white;
-  padding-top: 35px;
+  padding: 35px 0 0 5%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
-.wrap{
+.wrap {
   width: 85%;
 }
 
-.logo{
+.logo {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-bottom: 60px;
 }
 
-.logo .st0{
+.logo .st0 {
   fill: black;
 }
 
-.info{
+.info {
   flex-direction: column;
 }
 
-.border-l{
+.border-l {
   border-left: 1px solid black;
   padding-left: 20px;
   margin-bottom: 30px;
 }
 
-.info h5{
+.info h5 {
   margin-bottom: 10px;
 }
 
-.social{
+.social {
   display: grid;
   grid-template: 65px / 65px 65px;
 }
 
-.social .fab{
+.social .fab {
   color: white;
   font-size: 1.3em;
 }
-
-.sc{
+.sc {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -306,22 +304,29 @@ footer{
   align-items: center;
 }
 
-.href-but{
+.href-but {
   width: 85%;
 }
 
-.red-href{
+.red-href {
   width: 150px;
   height: 30px;
   color: rgb(138, 28, 28);
 }
-.red-href .fas{
+
+.red-href .fas {
   margin-left: 5px;
-  transition:  transform 1s ease-in;
+  transition: transform 1s ease-in;
   transform: translateX(0);
 }
 
-.red-href:hover .fas{
+.red-href:hover .fas {
   transform: scale(2,1) translateX(5px);
+}
 
+.last-img {
+  background: url("../img/testimg.jpg") no-repeat;
+  width: 2000px;
+  height: 1000px;
+  background-size: cover;
 }
