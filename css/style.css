@@ -374,7 +374,7 @@ Overlay Menu*/
   z-index: 1;
   left: 0;
   right: 0;
-  bottom: -270px;
+  bottom: -280px;
   height: 30%;
   background-image: linear-gradient(0deg, transparent, #0d021a); }
 
@@ -443,8 +443,8 @@ Overlay Menu*/
 
 .project img {
   transition: transform 2.5s;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   background-size: cover; }
 
 .project .first img {
@@ -751,7 +751,11 @@ footer {
   /*/Nav*/
   /*Content*/
   .parallax-window {
-    width: 90%; } }
+    width: 90%; }
+
+  .project img {
+    width: 100%;
+    height: auto; } }
 @media (min-width: 750px) {
   .mobile {
     display: flex;
@@ -841,6 +845,10 @@ footer {
 
   .capture-block {
     left: 12%; }
+
+  .project img {
+    width: 100%;
+    height: auto; }
 
   /*Footer*/
   footer {
