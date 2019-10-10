@@ -93,8 +93,8 @@
     margin: 200px auto 30px 5%;
   }
 
-  .content-motivation {
-    margin: 70px auto 0 5%;
+  .content-motivation section{
+    margin: 70px 10% 0 12%;
   }
 
   .capture-block {
@@ -148,6 +148,11 @@
   }
 
   /*Contacts*/
+
+  .content-contact-form {
+
+    margin: 0 10% 15px 15%;
+  }
 
   .log-row{
     flex-direction: row;

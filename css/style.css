@@ -317,7 +317,8 @@ Menu*/
   justify-content: center;
   align-items: center;
   position: absolute;
-  outline: 1px solid white; }
+  outline: 1px solid white;
+  transition: 1s; }
 
 .mobile {
   display: none; }
@@ -327,6 +328,10 @@ Menu*/
 
 .button-contact a {
   color: white; }
+
+.button-contact:hover {
+  background-color: #f7624e;
+  outline: 1px solid #f7624e; }
 
 /*/
 Overlay Menu*/
@@ -553,6 +558,10 @@ section {
   color: white;
   top: 50%; }
 
+.capture-block h2,
+.capture-block p {
+  margin-bottom: 15px; }
+
 /*Footer*/
 footer {
   min-height: 400px;
@@ -638,7 +647,17 @@ footer {
   right: 0;
   padding: 25px 50px;
   opacity: 0;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.carousel-item p {
+  font-size: 7vw;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 5%; }
 
 .carousel-wrapper .carousel-item .arrow {
   position: absolute;
@@ -880,8 +899,8 @@ textarea {
   .stats {
     margin: 200px auto 30px 5%; }
 
-  .content-motivation {
-    margin: 70px auto 0 5%; }
+  .content-motivation section {
+    margin: 70px 10% 0 12%; }
 
   .capture-block {
     left: 12%; }
@@ -927,6 +946,9 @@ textarea {
     top: 20px; }
 
   /*Contacts*/
+  .content-contact-form {
+    margin: 0 10% 15px 15%; }
+
   .log-row {
     flex-direction: row;
     justify-content: space-around; }

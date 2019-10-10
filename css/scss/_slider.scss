@@ -13,6 +13,17 @@
   padding: 25px 50px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item p{
+  font-size: 7vw;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 5%;
 }
 
 .carousel-wrapper .carousel-item .arrow {
@@ -77,11 +88,7 @@
   z-index: 3;
   opacity: 1;
 }
-
 /*Working*/
-
-
-
 @media (max-width: 480px) {
   .carousel-wrapper .carousel-item .arrow,
   .carousel-wrapper .carousel-item.light .arrow {
