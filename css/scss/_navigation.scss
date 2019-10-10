@@ -214,9 +214,7 @@ Menu*//*Overlay Menu*/
   border: none;
   transition: border-color 200ms ease, color 200ms ease;
   border-style: none none solid;
-  border-bottom-width: 2px;
-  border-bottom-color: transparent;
-  // border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   background-color: transparent;
   outline: none;
 }

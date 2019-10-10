@@ -120,29 +120,27 @@
           <form id="email-form" name="email-form" data-name="Email Form">
 
             <div class="log-row">
-              <div class="item-bordered form-input item-first border-top">
+              <div class="item-bordered border-top form-input">
                 <label for="Name-3" class="field-label">Name</label>
-                <input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name-3" required="">
+                <input type="text" class="text-field input-contact" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name-3" required="">
               </div>
 
-              <div class="item-bordered form-input item-last border-top">
+              <div class="item-bordered border-top form-input">
                 <label for="Email-Address-3" class="field-label">Email</label>
-                <input type="email" class="text-field w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="name@email.com" id="Email-Address-3" required="">
+                <input type="email" class="text-field input-contact" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="name@email.com" id="Email-Address-3" required="">
               </div>
             </div>
 
-            <div class="item-bordered item-last item-first form-input border-top">
+            <div class="item-bordered border-top form-input">
               <label for="Description-3" class="field-label">Description</label>
-              <input type="text" class="text-field w-input" maxlength="256" name="Description" data-name="Description" placeholder="A brief description of your project" id="Description-3">
+              <input type="text" class="text-field input-contact" maxlength="256" name="Description" data-name="Description" placeholder="A brief description of your project" id="Description-3">
             </div>
-            <div class="item-bordered item-last item-first form-input form-input-last border-top remove-pad">
-              <label for="Message-3" class="field-label">Message</label>
-              <textarea id="Message-3" name="Message" placeholder="Any additional information you'd like to provide" maxlength="5000" data-name="Message" class="text-field textarea border-bottom w-input"
-                style="margin: 5px -1px 0px 0px; height: 164px; width: 100%;">
-
-                </textarea>
+            <div class="item-bordered border-top form-input">
+              <label for="Message" class="field-label">Message</label>
+              <textarea id="Message" placeholder="Any Message" maxlength="256" class="text-field textarea" required="">
+              </textarea>
             </div>
-            <input type="submit" value="Submit" data-wait="Please wait..." class="button button-light w-button">
+            <input type="submit" placeholder="Submit" class="button-submit">
           </form>
 
         </div>

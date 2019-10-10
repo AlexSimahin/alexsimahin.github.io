@@ -297,8 +297,7 @@ Menu*/
   border: none;
   transition: border-color 200ms ease, color 200ms ease;
   border-style: none none solid;
-  border-bottom-width: 2px;
-  border-bottom-color: transparent;
+  border-bottom: 2px solid transparent;
   background-color: transparent;
   outline: none; }
 
@@ -698,6 +697,11 @@ footer {
   .carousel-wrapper .carousel-item.light .arrow {
     background-size: 10px;
     background-position: 10px 50%; } }
+.container-form {
+  position: relative;
+  z-index: 15;
+  margin-top: 50px; }
+
 .content-contact-form {
   position: relative;
   z-index: 5;
@@ -718,12 +722,46 @@ footer {
   padding-bottom: 10px;
   color: white; }
 
-.text-field {
+.text-field,
+.content-contact-form .textarea {
   color: #c8c8c8; }
 
 .item-bordered.form-input {
   padding-top: 30px;
   padding-bottom: 10px; }
+
+.content-contact-form .input-contact,
+.content-contact-form .textarea {
+  background: none;
+  border: none;
+  outline: none; }
+
+textarea {
+  color: white; }
+
+.content-contact-form .textarea {
+  margin: 5px 0px 0px 0px;
+  height: 164px;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.2); }
+
+.content-contact-form.textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background: red; }
+
+.content-contact-form.textarea:focus::placeholder {
+  opacity: 0; }
+
+.button-submit {
+  margin: 20px 0;
+  padding: 0px 20px;
+  color: white;
+  outline: 1px solid white;
+  background: none;
+  border: none;
+  height: 35px; }
 
 .map-location {
   display: flex;

@@ -1,4 +1,8 @@
-.container-form{}
+.container-form{
+  position: relative;
+  z-index: 15;
+  margin-top: 50px;
+}
 
 .content-contact-form{
   position: relative;
@@ -23,14 +27,53 @@
   color: white;
 }
 
-.text-field{
+.text-field,
+.content-contact-form .textarea{
   color: rgb(200, 200, 200);
 }
 
 .item-bordered.form-input {
     padding-top: 30px;
     padding-bottom: 10px;
-  }
+}
+
+.content-contact-form .input-contact,
+.content-contact-form .textarea{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+textarea{
+  color: white;
+}
+.content-contact-form .textarea{
+  margin: 5px 0px 0px 0px;
+  height: 164px;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid hsla(0, 0%, 85%, 0.2);
+}
+.content-contact-form.textarea::placeholder{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background: red;
+}
+.content-contact-form.textarea:focus::placeholder{
+  opacity: 0;
+}
+
+.button-submit{
+  margin: 20px 0;
+  padding: 0px 20px;
+  color: white;
+  outline: 1px solid white;
+  background: none;
+  border: none;
+  height: 35px;
+}
+
+
 
 
 .map-location{
