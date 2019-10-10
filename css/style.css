@@ -117,6 +117,7 @@ nav {
   min-height: 0; }
 
 .nav-bar {
+  position: relative;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -128,13 +129,22 @@ nav {
   background-color: rgba(9, 6, 24, 0.81); }
 
 .nav-bar-controls {
+  position: relative;
   background: none;
   border: none;
-  outline: none; }
+  outline: none;
+  width: 35px;
+  height: 35px; }
 
 .nav-bar-controls svg {
   width: 35px;
-  height: 35px; }
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.X {
+  display: none; }
 
 .nav-bar-controls i:focus {
   border: none; }
@@ -300,6 +310,24 @@ Menu*/
 
 .search-input:hover {
   border-bottom-color: #0c55a6; }
+
+.button-contact {
+  width: 110px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  outline: 1px solid white; }
+
+.mobile {
+  display: none; }
+
+.desktop {
+  display: none; }
+
+.button-contact a {
+  color: white; }
 
 /*/
 Overlay Menu*/
@@ -670,6 +698,10 @@ footer {
   /*Content*/
   .parallax-window {
     width: 90%; } }
+@media (min-width: 750px) {
+  .mobile {
+    display: flex;
+    right: 10%; } }
 @media (min-width: 900px) {
   .parallax-window {
     width: 60%; }
@@ -679,10 +711,10 @@ footer {
     font-size: 5.5em; }
 
   .menu-other-links a {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
 
   .search-input {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
 
   nav {
     height: 100%;
@@ -691,7 +723,8 @@ footer {
   .nav-bar {
     flex-direction: column;
     position: relative;
-    background-color: rgba(23, 22, 27, 0.71); }
+    background-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(255, 255, 255, 0.12); }
 
   .nav-title-container {
     display: flex;
@@ -716,6 +749,9 @@ footer {
     left: -83px;
     font-size: 0.5em; }
 
+  .search-nav {
+    margin: 0 0 0 40px; }
+
   .search-nav svg {
     width: 35px;
     height: 35px; }
@@ -724,6 +760,10 @@ footer {
     width: 35px;
     height: 35px;
     right: 35px; }
+
+  .menu-other-links {
+    flex-direction: row;
+    width: 1000px; }
 
   /*Carousel*/
   .carousel-wrapper .carousel-item .arrow.arrow-prev {
@@ -768,6 +808,20 @@ footer {
     margin-right: 5%; }
 
   .border-l {
-    width: 230px; } }
+    width: 230px; }
+
+  .mobile {
+    display: none; }
+
+  .desktop {
+    display: flex; }
+
+  .button-contact {
+    width: 150px;
+    height: 40px;
+    z-index: 5;
+    position: absolute;
+    right: 5%;
+    top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

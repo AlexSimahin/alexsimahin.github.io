@@ -12,6 +12,7 @@ nav {
 }
 
 .nav-bar {
+  position: relative;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -24,14 +25,24 @@ nav {
 }
 
 .nav-bar-controls {
+  position: relative;
   background: none;
   border: none;
   outline: none;
+  width: 35px;
+  height: 35px;
 }
 
 .nav-bar-controls svg{
   width: 35px;
   height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.X{
+  display: none;
 }
 
 .nav-bar-controls i:focus {
@@ -179,6 +190,7 @@ Menu*//*Overlay Menu*/
   height: 27px;
 }
 
+
 .search-button{
   width: 27px;
   height: 27px;
@@ -219,6 +231,25 @@ Menu*//*Overlay Menu*/
 
 .search-input:hover {
   border-bottom-color: rgb(12, 85, 166);
+}
+
+.button-contact{
+  width: 110px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  outline: 1px solid white;
+}
+.mobile{
+  display: none;
+}
+.desktop{
+  display: none;
+}
+.button-contact a{
+  color: white;
 }
 /*/
 Overlay Menu*/

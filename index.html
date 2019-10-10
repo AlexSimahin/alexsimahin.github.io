@@ -29,17 +29,21 @@
             <div class="nav-title">Alex Simakhin</div>
             <div class="nav-subtitle">HTML Test Work</div>
           </div>
-          <!--<div class="button-contact"><a href="#">Get in touch</a></div>-->
+          <div class="button-contact mobile"><a href="#">Get in touch</a></div>
           <button class="nav-bar-controls">
 
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="O svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512">
               <path fill="white"
                 d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
             </svg>
 
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="X svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
+
           </button>
         </div>
       </nav>
+
+      <div class="button-contact desktop"><a href="#">Get in touch</a></div>
 
       <div class="menu-overlay">
 
@@ -265,27 +269,19 @@
 
   </div>
 
-  <!--<script>
+  <script>
     console.log($(".menu-overlay"))
     $(".menu-overlay").fadeOut(0);
+    $(".X").fadeOut(0);
 
     $(".nav-bar-controls").click(function() {
 
       $(".menu-overlay").fadeToggle(1000);
+      $(".X").fadeToggle(1000);
+      $(".O").fadeToggle(1000);
     });
-  </script>-->
-
-  <script>
-    console.log($(".menu-overlay"))
-    $(".menu-overlay").fadeOut(0);
-
-
-    $(".nav-bar-controls").click(function() {
-
-          $(".menu-overlay").fadeToggle(1000);
-          $(".nav-bar-controls").html('<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>').fadeToggle(1000);
-          });
   </script>
+
 
 
 
