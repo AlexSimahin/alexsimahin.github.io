@@ -335,6 +335,8 @@ Menu*/
   justify-content: center;
   align-items: center;
   position: absolute;
+  color: white;
+  background-color: rgba(25, 25, 32, 0.7);
   outline: 1px solid white;
   transition: 1s; }
 
@@ -343,9 +345,6 @@ Menu*/
 
 .desktop {
   display: none; }
-
-.button-contact a {
-  color: white; }
 
 .button-contact:hover {
   background-color: #f7624e;
@@ -836,7 +835,10 @@ textarea {
 @media (min-width: 750px) {
   .mobile {
     display: flex;
-    right: 10%; } }
+    right: 10%; }
+
+  .mobile a {
+    color: white; } }
 @media (min-width: 900px) {
   .parallax-window {
     width: 60%; }

@@ -259,6 +259,8 @@ Menu*//*Overlay Menu*/
   justify-content: center;
   align-items: center;
   position: absolute;
+  color: white;
+  background-color: rgba(25, 25, 32, 0.7);
   outline: 1px solid white;
   transition: 1s;
 }
@@ -267,9 +269,6 @@ Menu*//*Overlay Menu*/
 }
 .desktop{
   display: none;
-}
-.button-contact a{
-  color: white;
 }
 
 .button-contact:hover{
