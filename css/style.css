@@ -262,19 +262,20 @@ Menu*/
   align-items: center; }
 
 .search-nav svg {
-  width: 35px;
-  height: 35px; }
+  width: 27px;
+  height: 27px; }
 
 .search-button {
-  width: 35px;
-  height: 35px;
+  width: 27px;
+  height: 27px;
   position: relative;
-  right: 35px;
+  right: 27px;
   background: none;
   border: none; }
 
 .search-input {
-  margin-left: 20px;
+  position: relative;
+  right: 20px;
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 3vw;
@@ -680,6 +681,9 @@ footer {
   .menu-other-links a {
     font-size: 1.5em; }
 
+  .search-input {
+    font-size: 1.5em; }
+
   nav {
     height: 100%;
     width: 60px; }
@@ -699,7 +703,8 @@ footer {
     justify-content: center;
     width: 200px;
     position: absolute;
-    left: -100px; }
+    left: -95px;
+    font-size: 0.8em; }
 
   .nav-subtitle {
     transform: rotateZ(-90deg);
@@ -708,7 +713,17 @@ footer {
     padding-top: 10px;
     width: 200px;
     position: absolute;
-    left: -83px; }
+    left: -83px;
+    font-size: 0.5em; }
+
+  .search-nav svg {
+    width: 35px;
+    height: 35px; }
+
+  .search-button {
+    width: 35px;
+    height: 35px;
+    right: 35px; }
 
   /*Carousel*/
   .carousel-wrapper .carousel-item .arrow.arrow-prev {

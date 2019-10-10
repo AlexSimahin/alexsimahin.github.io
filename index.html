@@ -12,6 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#000000">
 </head>
 
 <body>
@@ -30,7 +31,6 @@
           </div>
           <!--<div class="button-contact"><a href="#">Get in touch</a></div>-->
           <button class="nav-bar-controls">
-            <!--<img src="img/bars-solid.svg" alt="">-->
 
             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512">
               <path fill="white"
@@ -117,7 +117,9 @@
           We breathe life into irresistible new worlds.
         </p>
 
-        <div class="rule-bl"><div class="rule-block"></div></div>
+        <div class="rule-bl">
+          <div class="rule-block"></div>
+        </div>
 
         <div class="future-project JustifyContent-center">
           <h4 class="text-center">FEATURED WORK</h4>
@@ -263,14 +265,26 @@
 
   </div>
 
-  <script>
+  <!--<script>
     console.log($(".menu-overlay"))
     $(".menu-overlay").fadeOut(0);
 
     $(".nav-bar-controls").click(function() {
 
-      $(".menu-overlay").fadeToggle(1500);
+      $(".menu-overlay").fadeToggle(1000);
     });
+  </script>-->
+
+  <script>
+    console.log($(".menu-overlay"))
+    $(".menu-overlay").fadeOut(0);
+
+
+    $(".nav-bar-controls").click(function() {
+
+          $(".menu-overlay").fadeToggle(1000);
+          $(".nav-bar-controls").html('<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>').fadeToggle(1000);
+          });
   </script>
 
 

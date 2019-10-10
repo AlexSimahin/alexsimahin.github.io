@@ -11,6 +11,10 @@
     font-size: 1.5em;
   }
 
+  .search-input{
+    font-size: 1.5em;
+  }
+
   nav {
     height: 100%;
     width: 60px;
@@ -33,7 +37,8 @@
     justify-content: center;
     width: 200px;
     position: absolute;
-    left: -100px;
+    left: -95px;
+    font-size: 0.8em;
   }
 
   .nav-subtitle {
@@ -44,7 +49,19 @@
     width: 200px;
     position: absolute;
     left: -83px;
+    font-size: 0.5em;
   }
+
+  .search-nav svg {
+    width: 35px;
+    height: 35px;
+  }
+  .search-button {
+    width: 35px;
+    height: 35px;
+    right: 35px;
+}
+
   /*Carousel*/
   .carousel-wrapper .carousel-item .arrow.arrow-prev {
     left: 55px;
