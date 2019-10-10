@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  color: #4a5ccf;
+  color: #ffffff;
   font-size: 1em;
   line-height: 1.6em;
   display: flex;
@@ -361,20 +361,41 @@ Overlay Menu*/
   right: 0;
   bottom: -2px;
   height: 30%;
-  background-image: linear-gradient(180deg, transparent, #0a0f39); }
+  background-image: linear-gradient(180deg, transparent, #0d021a); }
+
+.gradient-new-paragraph-1 {
+  /*width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(180deg, #0a0f39, rgba(19, 21, 29, 0) 36%);
+  position: absolute;
+  top: 0;
+  z-index: 1;*/
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: -270px;
+  height: 30%;
+  background-image: linear-gradient(0deg, transparent, #0d021a); }
+
+.gradient-new-paragraph-2 {
+  /*width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(180deg, #0a0f39, rgba(19, 21, 29, 0) 36%);
+  position: absolute;
+  top: 0;
+  z-index: 1;*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-image: linear-gradient(0deg, transparent, #310a39); }
 
 .content-imgText {
   position: relative;
   padding-top: 60px;
   margin-bottom: 120px; }
-
-.gradient-new-paragraph {
-  width: 100%;
-  height: 1000px;
-  background-image: linear-gradient(180deg, #0a0f39, rgba(19, 21, 29, 0) 36%);
-  position: absolute;
-  top: 0;
-  z-index: -1; }
 
 .text-center {
   text-align: center; }
@@ -678,6 +699,7 @@ footer {
   z-index: 3;
   opacity: 1; }
 
+/*Working*/
 @media (max-width: 480px) {
   .carousel-wrapper .carousel-item .arrow,
   .carousel-wrapper .carousel-item.light .arrow {
@@ -771,7 +793,7 @@ footer {
 
   /*Content*/
   .paragraph {
-    margin: 0 auto 50px 10%; }
+    margin: 0 auto 50px 12%; }
 
   .rule-bl {
     margin: 0 auto 30px 5%; }
