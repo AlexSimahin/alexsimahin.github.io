@@ -33,8 +33,7 @@
 }
 
 .item-bordered.form-input {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 30px 0 10px 0;
 }
 
 .content-contact-form .input-contact,
@@ -45,6 +44,7 @@
 }
 
 textarea{
+  font-family: 'Work Sans', sans-serif;
   color: white;
 }
 .content-contact-form .textarea{
@@ -64,20 +64,28 @@ textarea{
 }
 
 .button-submit{
-  margin: 20px 0;
-  padding: 0px 20px;
+  margin: 20px 0 50px 0;
+  padding: 10px 20px;
+  font-family: 'Work Sans', sans-serif;
   color: white;
   outline: 1px solid white;
   background: none;
   border: none;
-  height: 35px;
+  width: 100px;
+  height: 40px;
+  transition: 1s;
+}
+.m-b{margin: 0 0 30px 0;}
+
+.button-submit:hover{
+  background: rgb(16, 11, 48);
 }
 
 
 
 
 .map-location{
+  margin-top: 40px;
   display: flex;
   justify-content: center;
-  margin: 0 10% 15px;
 }

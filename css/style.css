@@ -727,8 +727,7 @@ footer {
   color: #c8c8c8; }
 
 .item-bordered.form-input {
-  padding-top: 30px;
-  padding-bottom: 10px; }
+  padding: 30px 0 10px 0; }
 
 .content-contact-form .input-contact,
 .content-contact-form .textarea {
@@ -737,6 +736,7 @@ footer {
   outline: none; }
 
 textarea {
+  font-family: 'Work Sans', sans-serif;
   color: white; }
 
 .content-contact-form .textarea {
@@ -755,18 +755,27 @@ textarea {
   opacity: 0; }
 
 .button-submit {
-  margin: 20px 0;
-  padding: 0px 20px;
+  margin: 20px 0 50px 0;
+  padding: 10px 20px;
+  font-family: 'Work Sans', sans-serif;
   color: white;
   outline: 1px solid white;
   background: none;
   border: none;
-  height: 35px; }
+  width: 100px;
+  height: 40px;
+  transition: 1s; }
+
+.m-b {
+  margin: 0 0 30px 0; }
+
+.button-submit:hover {
+  background: #100b30; }
 
 .map-location {
+  margin-top: 40px;
   display: flex;
-  justify-content: center;
-  margin: 0 10% 15px; }
+  justify-content: center; }
 
 @media (min-width: 450px) and (max-width: 900px) {
   /*Fonts*/
@@ -915,6 +924,18 @@ textarea {
     z-index: 5;
     position: absolute;
     right: 5%;
-    top: 20px; } }
+    top: 20px; }
+
+  /*Contacts*/
+  .log-row {
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .first-input, .second-input {
+    width: 50%; }
+
+  .second-input {
+    border-left: 1px solid rgba(217, 217, 217, 0.2);
+    padding-left: 10px !important; } }
 
 /*# sourceMappingURL=style.css.map */
