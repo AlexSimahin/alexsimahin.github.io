@@ -11,6 +11,9 @@
   <script src="https://kit.fontawesome.com/c5c58d2109.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.css' rel='stylesheet' />
+
   <link rel="stylesheet" href="css/style.css">
   <meta name="theme-color" content="#000000">
 </head>
@@ -36,7 +39,10 @@
                 d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
             </svg>
 
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="X svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="X svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512">
+              <path fill="white"
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+            </svg>
 
           </button>
         </div>
@@ -85,38 +91,70 @@
 
               <a class="arrow arrow-prev" href="#target-item-3"></a>
               <a class="arrow arrow-next" href="#target-item-2"></a>
+
+              <div class="gradient-block1"></div>
             </div>
             <div class="carousel-item item-2">
 
               <a class="arrow arrow-prev" href="#target-item-1"></a>
               <a class="arrow arrow-next" href="#target-item-3"></a>
+              <div class="gradient-block1"></div>
             </div>
             <div class="carousel-item item-3">
 
               <a class="arrow arrow-prev" href="#target-item-2"></a>
               <a class="arrow arrow-next" href="#target-item-1"></a>
+              <div class="gradient-block1"></div>
             </div>
           </div>
 
 
         </div>
-        <div class="gradient-block1"></div>
+        <div class="gradient-new-paragraph-1"></div>
       </div>
 
-      <div class="content-contact-form">
-        <div class="gradient-new-paragraph"></div>
-        <p class="paragraph text-center">
-          Alex Simakhin is a concept art and visual development house focused on world-building and IP development.
-          <br><br>
-          Led by some of the industry’s fiercest, most impassioned creatives, we create designs that are thoughtful, engaging and beautiful.
-          <br><br>
-          We breathe life into irresistible new worlds.
-        </p>
 
+      <div class="container-form">
+        <div class="content-contact-form">
 
+          <form id="email-form" name="email-form" data-name="Email Form">
 
+            <div class="log-row">
+              <div class="item-bordered form-input item-first border-top">
+                <label for="Name-3" class="field-label">Name</label>
+                <input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name-3" required="">
+              </div>
+
+              <div class="item-bordered form-input item-last border-top">
+                <label for="Email-Address-3" class="field-label">Email</label>
+                <input type="email" class="text-field w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="name@email.com" id="Email-Address-3" required="">
+              </div>
+            </div>
+
+            <div class="item-bordered item-last item-first form-input border-top">
+              <label for="Description-3" class="field-label">Description</label>
+              <input type="text" class="text-field w-input" maxlength="256" name="Description" data-name="Description" placeholder="A brief description of your project" id="Description-3">
+            </div>
+            <div class="item-bordered item-last item-first form-input form-input-last border-top remove-pad">
+              <label for="Message-3" class="field-label">Message</label>
+              <textarea id="Message-3" name="Message" placeholder="Any additional information you'd like to provide" maxlength="5000" data-name="Message" class="text-field textarea border-bottom w-input"
+                style="margin: 5px -1px 0px 0px; height: 164px; width: 100%;">
+
+                </textarea>
+            </div>
+            <input type="submit" value="Submit" data-wait="Please wait..." class="button button-light w-button">
+          </form>
+
+        </div>
       </div>
 
+      <div class="map-location">
+
+        <div id='map' style='width: 100%; height: 300px;'>
+
+        </div>
+
+      </div>
     </main>
 
     <footer>
@@ -172,6 +210,17 @@
       $(".menu-overlay").fadeToggle(1000);
       $(".X").fadeToggle(1000);
       $(".O").fadeToggle(1000);
+    });
+  </script>
+
+  <!--46.487, 30.728-->
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxleHNpbWEiLCJhIjoiY2sxa3NwbGNpMGVnaTNlcGJkY3lwdGFjNyJ9.Fi4sMEkqe0oIDQvFhYuCEQ';
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+      center: [30.7279545, 46.4868372], // starting position [lng, lat]
+      zoom: 18 // starting zoom
     });
   </script>
 
