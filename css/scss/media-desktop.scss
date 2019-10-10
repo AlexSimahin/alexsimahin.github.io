@@ -3,6 +3,14 @@
     width: 60%;
   }
 
+    /*fontsize nav*/
+  .menu-overlay-block ul a {
+    font-size: 5.5em;
+  }
+  .menu-other-links a {
+    font-size: 1.5em;
+  }
+
   nav {
     height: 100%;
     width: 60px;
@@ -42,6 +50,30 @@
     left: 55px;
   }
 
+  /*Content*/
+  .paragraph{
+    margin: 0 auto 50px 10%;
+  }
+
+  .rule-bl{
+    margin: 0 auto 30px 5%;
+  }
+
+  .future-project{
+    margin: 0 auto 50px 5%;
+  }
+
+  .stats{
+    margin: 200px auto 30px 5%;
+  }
+
+  .content-motivation{
+    margin: 70px auto 0 5%;
+  }
+
+  .capture-block{
+    left: 12%;
+  }
 
   /*Footer*/
   footer{
@@ -49,6 +81,7 @@
     align-items: center;
     min-height: 250px;
   }
+
   .info{
     flex-direction: row;
     height: 200px;
@@ -68,5 +101,8 @@
   .border-l{
     width: 230px;
   }
+
+
+
 
 }

@@ -358,10 +358,14 @@ Overlay Menu*/
   position: relative;
   z-index: 2; }
 
+.rule-bl {
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center; }
+
 .rule-block {
   height: 80px;
   width: 1px;
-  margin: 0 auto 30px;
   background-color: #bfc2e8; }
 
 .future-project {
@@ -514,7 +518,8 @@ footer {
   padding: 35px 0 0 5%;
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  color: #000000; }
 
 .wrap {
   width: 85%; }
@@ -668,6 +673,13 @@ footer {
   .parallax-window {
     width: 60%; }
 
+  /*fontsize nav*/
+  .menu-overlay-block ul a {
+    font-size: 5.5em; }
+
+  .menu-other-links a {
+    font-size: 1.5em; }
+
   nav {
     height: 100%;
     width: 60px; }
@@ -701,6 +713,25 @@ footer {
   /*Carousel*/
   .carousel-wrapper .carousel-item .arrow.arrow-prev {
     left: 55px; }
+
+  /*Content*/
+  .paragraph {
+    margin: 0 auto 50px 10%; }
+
+  .rule-bl {
+    margin: 0 auto 30px 5%; }
+
+  .future-project {
+    margin: 0 auto 50px 5%; }
+
+  .stats {
+    margin: 200px auto 30px 5%; }
+
+  .content-motivation {
+    margin: 70px auto 0 5%; }
+
+  .capture-block {
+    left: 12%; }
 
   /*Footer*/
   footer {

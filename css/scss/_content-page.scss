@@ -64,10 +64,14 @@
   z-index: 2;
 }
 
+.rule-bl{
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+}
 .rule-block {
   height: 80px;
   width: 1px;
-  margin: 0 auto 30px;
   background-color: #bfc2e8;
 }
 
@@ -254,6 +258,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: #000000;
 }
 
 .wrap {
