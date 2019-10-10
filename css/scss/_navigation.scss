@@ -78,9 +78,30 @@ nav {
   text-transform: uppercase;
 }
 
+.Logotip{
+  position: relative;
+}
+
 .Logotip img {
   width: 35px;
   height: 35px;
+  border-radius: 50%;
+}
+
+.Logotip .circle-logo{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0px solid white;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.Logotip:hover .circle-logo{
+  border: 1px solid white;
+  transform: scale(1.2,1.2);
 }
 
 .st {
