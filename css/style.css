@@ -612,7 +612,8 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .info h5 {
   margin-bottom: 10px; }
@@ -993,17 +994,19 @@ textarea {
 
   .wrap {
     display: flex;
-    flex-direction: row;
     align-items: center; }
 
-  .logo {
-    margin-right: 5%; }
-
   .border-l {
-    width: 230px;
+    width: 100%;
     padding-right: 10px;
-    border-left: 1px solid black;
+    /*border-left: 1px solid black;*/
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(7, 14, 65, 0.82), rgba(31, 21, 105, 0.04)) 1 100%;
     border-bottom: none; }
+
+  .border-l:nth-child(3) {
+    border-right: 1px solid linear-gradient(#e66465, #9198e5); }
 
   .mobile {
     display: none; }
@@ -1042,7 +1045,8 @@ textarea {
     flex-direction: row;
     justify-content: space-around; }
 
-  .first-input, .second-input {
+  .first-input,
+  .second-input {
     width: 50%; }
 
   .second-input {
