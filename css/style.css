@@ -892,7 +892,8 @@ textarea {
     flex-direction: column;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
-    border-right: 1px solid rgba(255, 255, 255, 0.12); }
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: none; }
 
   .nav-title-container {
     display: flex;
@@ -944,10 +945,10 @@ textarea {
     line-height: 25px; }
 
   .rule-bl {
-    margin: 0 auto 30px 6%; }
+    margin: 0 auto 30px 60px; }
 
   .future-project {
-    margin: 0 auto 50px 5%; }
+    margin: 0 auto 50px 60px; }
 
   .stats {
     margin: 300px auto 30px 5%; }
