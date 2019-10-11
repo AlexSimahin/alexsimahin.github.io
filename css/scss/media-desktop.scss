@@ -79,10 +79,12 @@
   /*Content*/
   .paragraph {
     margin: 0 auto 50px 12%;
+    font-size: 1.5em;
+    line-height: 25px;
   }
 
   .rule-bl {
-    margin: 0 auto 30px 5%;
+    margin: 0 auto 30px 6%;
   }
 
   .future-project {
@@ -90,7 +92,16 @@
   }
 
   .stats {
-    margin: 200px auto 30px 5%;
+    margin: 300px auto 30px 5%;
+  }
+  .stats h1 {
+    margin-bottom: 80px;
+    font-size: 9em;
+  }
+
+  .stats h5 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
   }
 
   .content-motivation section{
@@ -149,6 +160,24 @@
 
   /*Contacts*/
 
+  .h1-for-contact{
+    font-size: 5em;
+    line-height: 5em;
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    position: absolute;
+    top: 420px;
+  }
+  .p-for-contact{
+    font-size: 1.5em;
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    position: absolute;
+    top: 700px;
+  }
+
   .content-contact-form {
 
     margin: 0 10% 15px 15%;
@@ -166,5 +195,7 @@
     border-left: 1px solid hsla(0, 0%, 85%, 0.2);
     padding-left: 10px!important;
   }
+
+
 
 }

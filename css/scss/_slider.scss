@@ -88,6 +88,23 @@
   z-index: 3;
   opacity: 1;
 }
+
+.h1-for-contact{
+  font-size: 2em;
+  text-align: left;
+  width: 75%;
+  min-height: 300px;
+  position: absolute;
+  top: 620px;
+}
+.p-for-contact{
+  text-align: left;
+  width: 75%;
+  min-height: 300px;
+  position: absolute;
+  top: 700px;
+}
+
 /*Working*/
 @media (max-width: 480px) {
   .carousel-wrapper .carousel-item .arrow,

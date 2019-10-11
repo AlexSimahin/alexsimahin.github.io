@@ -727,6 +727,21 @@ footer {
   z-index: 3;
   opacity: 1; }
 
+.h1-for-contact {
+  font-size: 2em;
+  text-align: left;
+  width: 75%;
+  min-height: 300px;
+  position: absolute;
+  top: 620px; }
+
+.p-for-contact {
+  text-align: left;
+  width: 75%;
+  min-height: 300px;
+  position: absolute;
+  top: 700px; }
+
 /*Working*/
 @media (max-width: 480px) {
   .carousel-wrapper .carousel-item .arrow,
@@ -908,16 +923,26 @@ textarea {
 
   /*Content*/
   .paragraph {
-    margin: 0 auto 50px 12%; }
+    margin: 0 auto 50px 12%;
+    font-size: 1.5em;
+    line-height: 25px; }
 
   .rule-bl {
-    margin: 0 auto 30px 5%; }
+    margin: 0 auto 30px 6%; }
 
   .future-project {
     margin: 0 auto 50px 5%; }
 
   .stats {
-    margin: 200px auto 30px 5%; }
+    margin: 300px auto 30px 5%; }
+
+  .stats h1 {
+    margin-bottom: 80px;
+    font-size: 9em; }
+
+  .stats h5 {
+    margin-bottom: 40px;
+    font-size: 1.5em; }
 
   .content-motivation section {
     margin: 70px 10% 0 12%; }
@@ -966,6 +991,23 @@ textarea {
     top: 20px; }
 
   /*Contacts*/
+  .h1-for-contact {
+    font-size: 5em;
+    line-height: 5em;
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    position: absolute;
+    top: 420px; }
+
+  .p-for-contact {
+    font-size: 1.5em;
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    position: absolute;
+    top: 700px; }
+
   .content-contact-form {
     margin: 0 10% 15px 15%; }
 
