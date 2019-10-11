@@ -8,11 +8,12 @@
   }
 
   .menu-other-links a {
-    font-size: 1.4em
+    font-size: 1.4em;
   }
 
   .search-input {
-    font-size: 1.4em
+    font-size: 1.4em;
+    margin-left: 5px;
   }
 
   nav {
@@ -57,7 +58,7 @@
     margin: 0 0 0 40px;
   }
 
-  .search-nav svg {
+  /*.search-nav svg {
     width: 35px;
     height: 35px;
   }
@@ -66,7 +67,7 @@
     width: 35px;
     height: 35px;
     right: 35px;
-  }
+  }*/
 
   .menu-other-links{
     flex-direction: row;
@@ -133,6 +134,7 @@
 
   .wrap {
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -142,6 +144,9 @@
 
   .border-l {
     width: 230px;
+    padding-right: 10px;
+    border-left: 1px solid black;
+    border-bottom: none;
   }
 
   .mobile{
