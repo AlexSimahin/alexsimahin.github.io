@@ -427,11 +427,6 @@ Overlay Menu*/
   display: flex;
   justify-content: center; }
 
-.rule-block {
-  height: 80px;
-  width: 1px;
-  background-color: #bfc2e8; }
-
 .future-project {
   flex-direction: column;
   margin: 0 5%; }
